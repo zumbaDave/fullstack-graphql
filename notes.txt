@@ -1,0 +1,19 @@
+mongodb pw NntVBG0w3QkD34dr
+
+can download mongodb compass to visualize your dateabase
+
+mutation {
+  createUser(userInput:{email:"test@test.com", password:"tester"}) {
+    email
+    password
+  }
+}
+
+mutation {
+    createEvent(eventInput: {title:"Testing2", description:"This is a test", price: 9.99, date: "2018-12-18T14:59:56.944Z" }) {
+    title
+    description
+  }
+}
+
+
